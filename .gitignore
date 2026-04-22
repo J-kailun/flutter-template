@@ -1,0 +1,99 @@
+# Flutter
+/.dart_tool/
+/.flutter-plugins
+/.flutter-plugins-dependencies
+/.packages
+/build/
+/flutter_export_environment.sh
+
+# Android
+/android/app/build/
+/android/build/
+/android/gradle/wrapper/
+/android/local.properties
+/android/.gradle/
+
+# iOS
+/ios/Pods/
+/ios/build/
+/ios/.symlinks/
+/ios/Flutter/.last_build_id
+
+# macOS
+/macos/Pods/
+/macos/build/
+
+# Windows
+/windows/flutter/ephemeral/
+/windows/flutter/pigeon/
+/windows/runner/Release/
+/windows/runner/Debug/
+/windows/runner/flutter_assets/
+
+# Linux
+/linux/build/
+
+# Flutter web
+/web/build/
+/web/.dart_tool/
+
+# IDE
+.idea/**/*
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+!.idea/runConfigurations/
+!.idea/settings.gradle.kts
+.vscode/**/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+coverage/
+/test/.test_coverage.dart
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Gradle
+gradle-app.setting
+.gradle
+
+# Maven
+.mvn
+
+# Flutter plugins
+.pub/
+
+# Localization
+*.arb
+
+# Generated files
+*.g.dart
+*.freezed.dart
